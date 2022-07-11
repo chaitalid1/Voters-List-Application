@@ -194,8 +194,7 @@ void display(struct person *n)
     printf("\n Name \t\t Gender \t Age \t\t City\n");
     while(n!=NULL)
     {
-        printf(" %d. %s \t\t %c \t\t %d \t\t %s \n", i++, n->name, n->gender, n->age, n-
-        >city);
+        printf(" %d. %s \t\t %c \t\t %d \t\t %s \n", i++, n->name, n->gender, n->age, n->city);
         n=n->next;
     }
 }
